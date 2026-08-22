@@ -4,9 +4,9 @@ Competition robot for CMU 16-220 Robot Building Practices. The robot used a simp
 
 [Final robot demo](https://youtu.be/4ThMc63bv38)
 
-![Final robot](final_photo.png)
+![Final robot](assets/final_photo.png)
 
-## Embedded Systems Relevance
+## Technical Summary
 
 - Wired and soldered the robot power/control stack, including a 12V NiMH battery, XT-30 power distribution, motor controllers, voltage regulation, drive motors, and RC receiver.
 - Integrated two independently controlled drivetrain motors through RC channels for differential/tank-style control.
@@ -21,7 +21,15 @@ The final design separated the system into three main subsystems:
 - **Passive intake:** A floating V-shaped claw made from C-channel, axles, and shaft collars. The compliant mounting let the claw adapt to bean-bag shape and ramp angle without adding servos or extra control channels.
 - **Ramp:** A 14 in x 21 in x 4 in hardboard ramp with a 15.5 degree incline, built to sit flush with the game board and provide repeatable traversal.
 
-![Final CAD](final_cad.png)
+![Final CAD](assets/final_cad.png)
+
+## Manufacturing Process
+
+The build combined hands-on mechanical fabrication with electrical assembly. I constructed the ramp from hardboard to match the required board interface and soldered the robot power/control wiring for the drivetrain and RC system.
+
+![Ramp construction](assets/ramp_construction.png)
+
+![Soldering robot wiring](assets/soldering.png)
 
 ## Prototype Iteration
 
@@ -29,7 +37,7 @@ Before the final passive intake, I built and tested a powered claw concept as a 
 
 [Powered claw prototype demo](https://youtu.be/aDz2mZCN5AU)
 
-![Powered claw CAD](claw_cad.png)
+![Powered claw CAD](assets/claw_cad.png)
 
 ## Key Results
 
